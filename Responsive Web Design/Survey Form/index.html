@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <h1 id="title">GDSC Free Mentorship Program</h1>
+            <p id="description">Thank you for enrolling into our free mentorship program</p>
+
+        <form action="" id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name</label> <input type="text" id="name" name="Name" required placeholder="Enter your name"/>
+                <label id="email-label" for= "email">Email</label> <input type="email" id="email" name="Email" required placeholder="Enter your Email"/>
+                <label id="number-label"
+for="number">Age <span>(Optional)</span></label> <input type="number" id="number" name="Age" min="20" max="100" placeholder="Age"/>
+                </fieldset>
+
+                <fieldset>
+                    <label for="dropdown"> Which of these skills would you like to learn</label>
+                    <select id="dropdown">
+                <option value="app">App Development</option>       
+                <option value="web">Web Development</option>       
+                <option value="twriting">Technical Writing</option>       
+                <option value="pdesign">Product Designing</option>      
+                 </select>
+                    </fieldset>
+
+                    
+                    <fieldset>
+                    <p>Choose your learning platform</p>
+                    <label for="udemy"><input type="radio" id="udemy" name="platform" value="Udemy" class="inline"/>Udemy</label>
+                     <label for="freecodeCamp"><input type="radio" id="freecodecamp" class="inline" name="platform" value="FreecodeCamp"/>FreeCodeCamp</label>
+                      <label for="scrimba"><input type="radio" id="scrimba" name="platform" class="inline" value="Scrimba"/>Scrimba</label>
+                    </fieldset>
+
+        <fieldset>
+            
+        <label for="personal-account"><input id="personal-account" type="checkbox" name="account-type" value="p-acct" class="account" /> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="checkbox" name="account-type" value="b-acct" class="account"/> Business Account</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="terms" class="account"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+
+                      <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+        </fieldset>
+       <input type="submit" id="submit" value="Submit" />
+                
+         </form>
+        </body>
+    </html>

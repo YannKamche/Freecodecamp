@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    padding: 40px;
+    font-family: Pacifico;
+    background-color: rgba(245, 62, 197, 0.317);
+    font-size: 40px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.big {
+    width: 120px;
+    height: 100px;
+}
+body {
+    margin: 0;
+    background-color: white;
+}
