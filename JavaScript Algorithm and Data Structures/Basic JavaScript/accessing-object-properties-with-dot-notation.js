@@ -1,0 +1,12 @@
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+console.log(hatValue);
+const shirtValue = testObj.shirt;    // Change this line
+console.log(shirtValue);
