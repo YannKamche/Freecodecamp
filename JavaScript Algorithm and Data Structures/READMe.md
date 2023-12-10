@@ -15,3 +15,10 @@ ES6, released in 2015, added many powerful new features to the language. In this
 Regular expressions, often shortened to "regex" or "regexp", are patterns that help programmers match, search, and replace text. Regular expressions are very powerful, but can be hard to read because they use special characters to make more complex, flexible matches.
 
 In this course, you'll learn how to use special characters, capture groups, positive and negative lookaheads, and other techniques to match any text you want.
+
+## Debugging
+Debugging is the process of going through your code, finding any issues, and fixing them.
+
+Issues in code generally come in three forms: syntax errors that prevent your program from running, runtime errors where your code has unexpected behavior, or logical errors where your code doesn't do what you intended.
+
+In this course, you'll learn how to use the JavaScript console to debug programs and prevent common issues before they happen.
