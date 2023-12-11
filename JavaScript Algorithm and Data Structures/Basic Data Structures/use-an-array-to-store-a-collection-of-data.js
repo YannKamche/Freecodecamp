@@ -1,0 +1,1 @@
+let yourArray = ["myString", 23, true, "FreeCodeCamp", false]; // Change this line
