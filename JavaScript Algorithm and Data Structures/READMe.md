@@ -22,3 +22,8 @@ Debugging is the process of going through your code, finding any issues, and fix
 Issues in code generally come in three forms: syntax errors that prevent your program from running, runtime errors where your code has unexpected behavior, or logical errors where your code doesn't do what you intended.
 
 In this course, you'll learn how to use the JavaScript console to debug programs and prevent common issues before they happen.
+
+## Basic Data Structures
+Data can be stored and accessed in many ways. You already know some common JavaScript data structures — arrays and objects.
+
+In this Basic Data Structures course, you'll learn more about the differences between arrays and objects, and which to use in different situations. You'll also learn how to use helpful JS methods like splice() and Object.keys() to access and manipulate data.
