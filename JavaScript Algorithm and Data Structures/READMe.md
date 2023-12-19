@@ -44,3 +44,6 @@ In this course, you'll learn the basic principles of OOP in JavaScript, includin
 Functional Programming is another popular approach to software development. In Functional Programming, code is organized into smaller, basic functions that can be combined to build complex programs.
 
 In this course, you'll learn the core concepts of Functional Programming including pure functions, how to avoid mutations, and how to write cleaner code with methods like .map() and .filter().
+
+## Intermediate Algorithm Scripting
+Now that you know the basics of algorithmic thinking, along with OOP and Functional Programming, test your skills with the Intermediate Algorithm Scripting challenges.
