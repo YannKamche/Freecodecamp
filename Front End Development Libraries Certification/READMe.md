@@ -22,3 +22,10 @@ React is a popular JavaScript library for building reusable, component-driven us
 React combines HTML with JavaScript functionality into its own markup language called JSX. React also makes it easy to manage the flow of data throughout the application.
 
 In this course, you'll learn how to create different React components, manage data in the form of state props, use different lifecycle methods like componentDidMount, and much more.
+
+## Redux
+As applications grow in size and scope, managing shared data becomes much more difficult. Redux is defined as a "predictable state container for JavaScript apps" that helps ensure your apps work predictably, and are easier to test.
+
+While you can use Redux with any view library, we introduce Redux here before combining it with React in the next set of courses.
+
+In this course, you'll learn the fundamentals of Redux stores, actions, reducers and middleware to manage data throughout your application.
